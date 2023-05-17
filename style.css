@@ -1,0 +1,88 @@
+
+    body {
+        background-image: url("acess/bela-praia-tropical-e-mar-com-coqueiro-na-ilha-paradisiaca_74190-2206.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+      }
+      
+      
+    
+#modal {
+        background-color: rgba(255, 255, 255, 0.844);
+        height: 12vh;
+        width: 50vw;
+        border-radius: 8px;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+  
+  h1 {
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+
+  }
+
+  label {
+    font-size: 20px;
+  color: #000000;
+
+  }
+
+  button{
+    background-color: #0b3774a5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 2px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+   
+  #input{
+   font-size: 10px;
+
+  }
+
+  #weather {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .summer {
+    background-color: #FFE4C4;
+    color: #8B0000;
+  }
+  
+  .summer h1 {
+    color: #8B0000;
+  }
+  
+  .summer #weather {
+    color: #8B0000;
+  }
+  
+  .winter {
+    background-color: #D3D3D3;
+    color: #000080;
+  }
+  
+  .winter h1 {
+    color: #000080;
+  }
+  
+  .winter #weather {
+    color: #000080;
+  }
+
