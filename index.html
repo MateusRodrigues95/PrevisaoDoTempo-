@@ -7,13 +7,19 @@
 </head>
 <body>
   <div id="modal">
-       <h1>Previsão do tempo</h1>
-          <form>
-                <label for="city">Digite o nome da cidade:</label>
-                <input type="text" id="city" name="city" required>
+    <div id="icone">
+        <img src="./acess/sol-vetorizado.jpg" alt="minha rola ">
+        <h1>Previsão do tempo</h1>
+    </div>
+     
+       <div id="weather-container">   
+            <form>
+
+                <input type="text" id="city" name="city" required placeholder="digite o nome da cidade">
                 <button type="submit">Buscar</button>
             </form>
-    <div id="weather"></div>
+            <div id="weather"></div>
+       </div>
     <script src="script.js"></script>
 </div>
 
